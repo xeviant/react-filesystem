@@ -1,0 +1,25 @@
+{
+    "name": "xeviant/react-filesystem",
+    "description": "Minor extension of the react/filesystem Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olatunbosun Egberinde",
+            "email": "bosunski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "react/filesystem": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xeviant\\ReactFilesystem\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
