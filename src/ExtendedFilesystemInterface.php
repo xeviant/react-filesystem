@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Xeviant\ReactFilesystem;
-
 
 use React\Filesystem\FilesystemInterface;
 use Xeviant\ReactFilesystem\Adapter\ExtendedAdapterInterface;

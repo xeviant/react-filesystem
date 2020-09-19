@@ -2,8 +2,10 @@
 
 namespace Xeviant\ReactFilesystem;
 
-use React\Filesystem\AdapterInterface;
 use React\Filesystem\Filesystem;
+use Xeviant\ReactFilesystem\Adapter\ExtendedAdapterInterface;
+use Xeviant\ReactFilesystem\Node\DecoratedFile;
+use Xeviant\ReactFilesystem\Node\ExtendedFileInterface;
 
 class DecoratedAsyncFilesystem extends Filesystem implements ExtendedFilesystemInterface
 {

@@ -7,7 +7,10 @@ use Xeviant\ReactFilesystem\Adapter\ExtendedAdapterInterface;
 
 class DecoratedFile extends File implements ExtendedFileInterface
 {
-    protected ExtendedAdapterInterface $adapter;
+    /**
+     * @var ExtendedAdapterInterface
+     */
+    protected $adapter;
 
     public function putContents($contents, $options = 0)
     {
